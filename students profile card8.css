@@ -5,18 +5,18 @@
             padding: 0;
         }
 
-        /* Flex Container */
+        
         .container {
-            display: flex;                  /* display: flex */
-            flex-direction: row;            /* flex-direction */
-            justify-content: center;        /* center horizontally */
-            align-items: center;            /* center vertically */
-            flex-wrap: wrap;                /* wrap to next line if needed */
+            display: flex;                  
+            flex-direction: row;            
+            justify-content: center;        
+            align-items: center;            
+            flex-wrap: wrap;                
             min-height: 100vh;
             gap: 20px;
         }
 
-        /* Card Design */
+       
         .card {
             background-color: white;
             width: 200px;
@@ -25,7 +25,7 @@
             text-align: center;
             box-shadow: 0 2px 6px rgba(0,0,0,0.2);
         }
-/* Profile Circle */
+
         .profile {
             width: 60px;
             height: 60px;

@@ -13,7 +13,7 @@
 
         /* Inline-block menu items */
         .menu a {
-            display: inline-block;   /* inline-block */
+            display: inline-block;  
             padding: 10px 15px;
             margin: 5px;
             background-color: #dbe9ff;
@@ -24,14 +24,14 @@
 
         /* Float menu items */
         .float-menu a {
-            float: left;   /* float */
+            float: left;   
             background-color: lightgreen;
             color: black;
         }
 
  /* Clear float */
         .clear {
-            clear: both;   /* clear */
+            clear: both;   
         }
 
         /* Border for output box */
