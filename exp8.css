@@ -1,0 +1,22 @@
+
+.container{
+    height:5oopx;
+    width:150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid rgba(142, 236, 234, 0.858);
+    border-radius: 8px;
+
+}
+.item{
+    text-align: center;
+     height:50px;
+    width:70px;
+    margin:3px;
+    border:3px solid rgb(0, 115, 255);
+    border-radius: 5px;
+    background-color: rgb(102, 178, 211);
+
+}
