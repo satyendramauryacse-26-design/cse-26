@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="online.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top navbar -->
+  <header class="nav">
+    <a class="nav-logo" href="#">
+      <!-- Use a placeholder logo text; replace with an image if you have one -->
+      <span class="logo-text">amazon.in</span>
+    </a>
+
+    <div class="nav-address">
+      <span class="small">Deliver to</span>
+      <span class="bold">Ghaziabad 201001</span>
+    </div>
+
+    <form class="nav-search" action="#" role="search">
+      <select class="search-select" aria-label="Search category">
+        <option selected>All</option>
+        <option>Electronics</option>
+        <option>Books</option>
+        <option>Fashion</option>
+      </select>
+      <input class="search-input" type="text" placeholder="Search Amazon.in" aria-label="Search" />
+      <button class="search-btn" type="submit" aria-label="Search">&#128269;</button>
+    </form>
+
+    <div class="nav-item">
+      <span class="small">Hello, Satyendra</span>
+      <span class="bold">Account & Lists</span>
+    </div>
+
+    <div class="nav-item">
+      <span class="small">Returns</span>
+      <span class="bold">& Orders</span>
+    </div>
+
+    <a class="nav-cart" href="#" aria-label="Cart">
+      <span class="cart-icon">🛒</span>
+      <span class="bold">Cart</span>
+    </a>
+  </header>
+
+  <!-- Secondary menu -->
+  <nav class="subnav">
+    <button class="hamburger" aria-label="Open menu">☰</button>
+    <a href="#">All</a>
+    <a href="#">Fresh</a>
+    <a href="#">Mobiles</a>
+    <a href="#">Fashion</a>
+    <a href="#">Electronics</a>
+    <a href="#">Prime</a>
+    <a href="#">Customer Service</a>
+    <a href="#">Amazon Pay</a>
+    <a href="#">Gift Cards</a>
+    <a href="#">Sell</a>
+  </nav>
+
+  <!-- Hero banner -->
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1542326237-94b1c5a4bc3a?q=80&w=1600&auto=format&fit=crop" alt="Holiday deals banner" />
+    <div class="hero-msg">
+      You are on a demo Amazon home. Shop deals on electronics, fashion, and more.
+      <a href="#">Click to learn more</a>.
+    </div>
+  </section>
+
+  <!-- Shop sections (cards) -->
+  <main class="shop">
+    <article class="box">
+      <h2>Refresh your space</h2>
+      <div class="grid">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=600&auto=format&fit=crop" alt="Cushions" />
+          <figcaption>Cushions</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1501045661006-fcebe0257c3c?q=80&w=600&auto=format&fit=crop" alt="Storage" />
+          <figcaption>Storage</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=600&auto=format&fit=crop" alt="Lighting" />
+          <figcaption>Lighting</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1519710164279-7065892b3b83?q=80&w=600&auto=format&fit=crop" alt="Decor" />
+          <figcaption>Decor</figcaption>
+        </figure>
+      </div>
+      <a class="link" href="#">Shop home products</a>
+    </article>
+
+    <article class="box">
+      <h2>Electronics you’ll love</h2>
+      <div class="grid">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=600&auto=format&fit=crop" alt="Laptop" />
+          <figcaption>Laptops</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?q=80&w=600&auto=format&fit=crop" alt="Headphones" />
+          <figcaption>Headphones</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=600&auto=format&fit=crop" alt="Smartphones" />
+          <figcaption>Smartphones</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1511389026070-a14ae610a1fa?q=80&w=600&auto=format&fit=crop" alt="Speakers" />
+          <figcaption>Speakers</figcaption>
+        </figure>
+      </div>
+      <a class="link" href="#">Explore electronics</a>
+    </article>
+
+    <article class="box">
+      <h2>Top picks in fashion</h2>
+      <div class="grid">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1520976271493-5d52a3f555a3?q=80&w=600&auto=format&fit=crop" alt="Men's clothing" />
+          <figcaption>Men’s clothing</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600&auto=format&fit=crop" alt="Women's clothing" />
+          <figcaption>Women’s clothing</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1520975620843-9c5e58a0c98a?q=80&w=600&auto=format&fit=crop" alt="Footwear" />
+          <figcaption>Footwear</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1520975682644-fc1f12638e8b?q=80&w=600&auto=format&fit=crop" alt="Accessories" />
+          <figcaption>Accessories</figcaption>
+        </figure>
+      </div>
+      <a class="link" href="#">Shop fashion</a>
+    </article>
+
+    <aside class="signin">
+      <h2>Sign in for best experience</h2>
+      <a class="btn" href="#">Sign in securely</a>
+      <p class="note">New customer? <a href="#">Start here.</a></p>
+    </aside>
+  </main>
+
+  <!-- Back to top -->
+  <div class="backtop">
+    <a href="#top">Back to top</a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-cols">
+      <div>
+        <h3>Get to Know Us</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press Releases</a></li>
+          <li><a href="#">Amazon Science</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Connect with Us</h3>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Make Money with Us</h3>
+        <ul>
+          <li><a href="#">Sell on Amazon</a></li>
+          <li><a href="#">Affiliate Program</a></li>
+          <li><a href="#">Advertise Your Products</a></li>
+          <li><a href="#">Fulfilment by Amazon</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Let Us Help You</h3>
+        <ul>
+          <li><a href="#">COVID-19 and Amazon</a></li>
+          <li><a href="#">Your Account</a></li>
+          <li><a href="#">Returns Centre</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-country">
+      <a class="nav-logo small-logo" href="#"><span class="logo-text">amazon.in</span></a>
+      <div class="country-list">
+        <a href="#">India</a>
+        <a href="#">USA</a>
+        <a href="#">UK</a>
+        <a href="#">Canada</a>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <ul>
+        <li><a href="#">Conditions of Use & Sale</a></li>
+        <li><a href="#">Privacy Notice</a></li>
+        <li><a href="#">Interest-Based Ads</a></li>
+      </ul>
+      <p>© 2025 Demo Amazon Clone</p>
+    </div>
+  </footer>
+</body>
+</html>

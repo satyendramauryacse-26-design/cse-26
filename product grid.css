@@ -50,6 +50,6 @@ body {
 /* Mobile view (≤600px) */
 @media (max-width: 600px) {
   .product-grid {
-    grid-template-columns: 1fr;
-  }
+    grid-template-columns:1fr;
+  }
 }
